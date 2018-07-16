@@ -55,17 +55,20 @@
         </router-link>
       </div>
     </div>
-
 </div>	
 </template>
 <script>
 export default {
+  name: "Home",
   data(){
     return {
       list : [
-        1,2,3,4,5
+        1,2
       ]
     }
+  },
+  mounted :function(){
+    let vue = this;
   }
 };	
 </script>
